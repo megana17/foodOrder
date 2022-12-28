@@ -1,0 +1,52 @@
+/* *{
+    font-family:montserrat;
+    background: linear-gradient(45deg, rgba(25, 77, 195, 1), rgba(30, 203, 244, 1));
+} */
+/* h1{
+    font-size: 30px;
+} */
+.center{
+    width:500px;
+    height:580px;
+        /* background-color: rgb(224, 211, 238); */
+    position:absolute;
+    left:500px;
+    border-radius: 12px;
+    background: linear-gradient(45deg, rgb(135, 233, 255), rgb(212, 92, 255));
+    /* transform:translate(-50%, -50%); */
+
+}
+.center form{
+    padding: 0 70px;
+    box-sizing:border-box;
+}
+form .txt1{
+    position: relative;
+    border-bottom:2px solid;
+    margin: 30px 0;
+
+
+}
+.txt1 input{
+    width:100%;
+    padding: 0 1px;
+    height:20px;
+    font-size:16px;
+    border:none;
+    background: none;
+    outline:none;
+
+}
+.txt1 label{
+    position: absolute;
+    top:50%;
+    left: 5px;
+    color:rgba(30, 203, 244, 1);
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events:none;
+}
+button{
+    position: absolute;
+    left: 230px;
+}
