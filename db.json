@@ -1,0 +1,31 @@
+{
+  "signup": [
+    {
+      "fname": "santhuu",
+      "lname": "shini",
+      "email": "santhoo@gmail.com",
+      "phonenumber": "1254789635",
+      "password": "Santoo",
+      "repassword": "Santoo",
+      "id": 1
+    },
+    {
+      "fname": "Prakhyath",
+      "lname": "Gujje",
+      "email": "prakhyathgujje@gmail.com",
+      "phonenumber": "9014240664",
+      "password": "hnjmkg",
+      "repassword": "hnjmkg",
+      "id": 2
+    },
+    {
+      "fname": "meghana",
+      "lname": "dumpeti",
+      "email": "Meghana@gmail.com",
+      "phonenumber": "45698712365652",
+      "password": "Meghana17",
+      "repassword": "Megana",
+      "id": 3
+    }
+  ]
+}

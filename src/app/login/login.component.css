@@ -7,13 +7,16 @@
 } */
 .center{
     width:500px;
-    height:500px;
+    height:400px;
     /* background-color: rgb(224, 211, 238); */
     position:absolute;
     left:500px;
-    bottom:100px;
+    font-size: 20px;
+    bottom:200px;
     border-radius: 12px;
-    background: linear-gradient(45deg, rgb(125, 164, 255), rgb(143, 95, 255));
+    color:maroon;
+    border: 2px solid maroon;
+    /* background: linear-gradient(45deg, rgb(255, 59, 10), #ffbbbb); */
     /* transform:translate(-50%, -50%); */
 
 }

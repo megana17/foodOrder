@@ -6,14 +6,18 @@
     font-size: 30px;
 } */
 .center{
-    width:500px;
-    height:580px;
+    width:400px;
+    height:auto;
         /* background-color: rgb(224, 211, 238); */
     position:absolute;
-    left:500px;
+    /* padding: 10px; */
+    right:350px;
+    top:150px;
+    /* transform: translate(-50%, -50%); */
+    color:maroon;
+    border: 2px solid maroon;
     border-radius: 12px;
-    background: linear-gradient(45deg, rgb(135, 233, 255), rgb(212, 92, 255));
-    /* transform:translate(-50%, -50%); */
+    
 
 }
 .center form{
@@ -48,5 +52,6 @@ form .txt1{
 }
 button{
     position: absolute;
-    left: 230px;
+    right: 200px;
+    margin:3px;
 }
