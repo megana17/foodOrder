@@ -1,32 +1,30 @@
-<div class="center" >
+<div class="center">
 
-    <form  [formGroup]="login" (ngSubmit)="logindata(login)">
-     <h1>Login</h1>
-        <div class="form-group">
-     <label>User Name(or Email):</label><br>
-     <input type="text" formControlName="fname" class="form" placeholder="Enter Email">
-     <span *ngIf="login.get('email')?.touched && login.get('email')?.hasError('required')" class="style">Enter email**</span>
+   <form [formGroup]="login" (ngSubmit)="logindata(login)" action="/src/app/chat-box/chat/chat.component.html">
+      <h1>Login</h1>
+      <div class="form-group">
+         <label>User Name(or Email):</label><br>
+         <input type="text" formControlName="fname" class="form" placeholder="Enter Email">
+         <!-- <span *ngIf="login.get('email')?.touched && login.get('email')?.hasError('required')" class="style">Enter email**</span>
 
      <span *ngIf="login.get('email')?.touched && login.get('email')?.hasError('minlength')" class="style">Min 5 char**</span>
 
-     <p *ngIf="login.get('email')?.touched && login.get('email')?.hasError('email')" class="style">Enter valid email address**</p>
-        </div>
+     <p *ngIf="login.get('email')?.touched && login.get('email')?.hasError('email')" class="style">Enter valid email address**</p> -->
+      </div>
 
-        <div class="form-group">
-     <label>Password:</label><br>
-     <input type="password" formControlName="password" class="form" placeholder="Enter Password">
-     <span *ngIf="login.get('password')?.touched && login.get('password')?.hasError('required')" class="style">Enter Your Password**</span>
+      <div class="form-group">
+         <label>Password:</label><br>
+         <input type="password" formControlName="password" class="form" placeholder="Enter Password">
+         <!-- <span *ngIf="login.get('password')?.touched && login.get('password')?.hasError('required')" class="style">Enter Your Password**</span>
 
      <span *ngIf="login.get('password')?.touched && login.get('password')?.hasError('minlength')" class="style">Must be Minimum 8 characters**</span>
 
-     <p *ngIf="login.get('password')?.touched && login.get('password')?.hasError('pattern')" class="style">Select Strong Password Type**</p>
-        </div>
-        <h6>  Create New Account <a routerLink="/register">Signup</a></h6><br>
-        <button type="submit"><a routerLink="/chat">Login</a>
-        </button>
+     <p *ngIf="login.get('password')?.touched && login.get('password')?.hasError('pattern')" class="style">Select Strong Password Type**</p> -->
+      </div>
+      <h6> Create New Account <a routerLink="/register">Signup</a></h6><br>
+      <button type="submit">Login
+      </button>
 
 
-    </form>
+   </form>
 </div>
-
-

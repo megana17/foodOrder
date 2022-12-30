@@ -28,9 +28,9 @@ export class ChatService {
 
   messageMap : { [char: string]: string } = {
 
-    'hi': 'Hello',
+    'How much time it will take for delivery ?': 'You will recvie your order within 30mins ',
 
-    'who are you': 'My name is Agular Bot',
+    'Are there any delivery charges added in the bill ?': 'No, delivery will be free of cost',
 
     'what is angular': 'Angular is the best framework ever',
 

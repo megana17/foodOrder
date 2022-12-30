@@ -30,13 +30,13 @@ res:any;
     logindata(login:FormGroup){
       // console.warn(this.login.value);
     this._http.get<any>("http://localhost:3000/signup").subscribe(res=>{
-      const user = res.find((a:any)=>{
-        return a.email ||a.fname === this.login.value.fname && a.password === this.login.value.password
-      });
+      const user = res.find((a:any)=>{console.log(a.fname);
+        return( a.email || a.fname === this.login.value.fname )&&( a.password === this.login.value.password)
+      });console.log(user);
       if(user){
         alert('You are successfully login');
-        this.login.reset();
-        this._route.navigate(['/src/app/chat-box/chat/chat.component.html']);
+        // this.login.reset();
+        this._route.navigate(['register']);
       }else
       alert('User Not Found');
       this._route.navigate(['login']);

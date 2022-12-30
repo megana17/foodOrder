@@ -19,6 +19,7 @@ export class ChatComponent implements OnInit {
   messages: Message[] = [];
 
   value: string = '';
+  welcome = ["Welcome to TC ☺ Food Corner ","I am Food Corner ChatBot","How can I help you ?"]
 
  
 

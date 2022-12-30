@@ -23,7 +23,7 @@ export class RegisterComponent implements OnInit {
     //  }
   }
     signup:FormGroup|any;
-    toast:any;
+  
     signuser:any;
 
   

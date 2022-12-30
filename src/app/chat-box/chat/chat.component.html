@@ -8,6 +8,15 @@
     </div>
 
     <div class="message__area">
+        <ng-container *ngFor="let welMsg of welcome">
+
+            <div class="message from" onload="messages" >
+    
+                  {{welMsg}}
+    
+                </div>
+    
+            </ng-container>
 
         <ng-container *ngFor="let message of messages">
 
