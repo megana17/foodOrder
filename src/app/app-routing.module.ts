@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { ChatComponent } from './chat-box/chat/chat.component';
 import { CartPageComponent } from './components/pages/cart-page/cart-page.component';
 import { FoodPageComponent } from './components/pages/food-page/food-page.component';
 import { HomeComponent } from './components/pages/home/home.component';
@@ -16,8 +15,7 @@ const routes: Routes = [
   // {redirectTo:'',path:'login',pathMatch:'fill'},
   {path:'login',component:LoginComponent},
   {path:'register',component: RegisterComponent},
-  {path: 'chat',component:ChatComponent},
-
+  
 ];
 
 @NgModule({
