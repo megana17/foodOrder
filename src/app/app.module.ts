@@ -16,6 +16,8 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { ChatComponent } from './chat/chat.component';
+import { ChatService } from './chat/chat.service';
 
 
 @NgModule({
@@ -30,7 +32,8 @@ import { HttpClientModule } from '@angular/common/http';
     TitleComponent,
     NotFoundComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    ChatComponent
 
   ],
   imports: [
@@ -43,7 +46,7 @@ import { HttpClientModule } from '@angular/common/http';
     
   
   ],
-  providers: [],
+  providers: [ChatService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
